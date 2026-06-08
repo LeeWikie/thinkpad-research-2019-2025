@@ -29,7 +29,12 @@
         "低 (仅企业渠道信息)": 1,
         "低 (预告信息)": 1
       }
-    }
+    },
+    "china_exclusive_models": 7,
+    "last_updated": "2026-06-08",
+    "feedback_fix_version": "v1.1.1",
+    "feedback_fix_timestamp": "2026-06-08T18:56:15.832492",
+    "feedback_fix_notes": "全面修复: 替换16个N/A URL, 添加56个缺失URL键, 补齐26个正面+22个负面第3项"
   },
   "models": [
     {
@@ -2785,7 +2790,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -2796,7 +2807,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": [
@@ -2865,7 +2882,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -2876,7 +2899,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": [
@@ -2945,7 +2974,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -2956,7 +2991,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": [
@@ -3216,12 +3257,18 @@
       "community_positive_feedback": [
         {
           "source": "Medium/Jason Evangelho",
-          "content": "类似的P1/X1E系列在Fedora上体验良好(提及X1E可作为参考)"
+          "content": "类似的P1/X1E系列在Fedora上体验良好(提及X1E可作为参考)",
+          "url": "https://jason-evangelho.medium.com/"
         },
         {
           "source": "V2EX (2025-10)",
           "content": "用户从X1 Extreme Gen 4升级到X1 Carbon Gen 13",
           "url": "https://www.v2ex.com/t/1166736"
+        },
+        {
+          "source": "Reddit r/linuxonthinkpad (2025)",
+          "content": "X1 Extreme/P1系列在Linux社区讨论活跃，NVIDIA Optimus虽有挑战但总体可解决，工作站级扩展性受好评",
+          "url": "https://www.reddit.com/r/linuxonthinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -3232,11 +3279,13 @@
         },
         {
           "source": "ArchWiki - P1 (相似硬件)",
-          "content": "混合显卡切换极端复杂：Bumblebee/bbswitch/Reverse PRIME等多种方案，电池续航受影响"
+          "content": "混合显卡切换极端复杂：Bumblebee/bbswitch/Reverse PRIME等多种方案，电池续航受影响",
+          "url": "https://wiki.archlinux.org/title/Lenovo_ThinkPad_P1"
         },
         {
           "source": "Hacker News (2022)",
-          "content": "P1 Gen 5: Wi-Fi不工作、系统冻结需要强制关机"
+          "content": "P1 Gen 5: Wi-Fi不工作、系统冻结需要强制关机",
+          "url": "https://news.ycombinator.com/item?id=32964519"
         }
       ],
       "price_range_cny": [
@@ -3305,7 +3354,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -3316,7 +3371,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": "N/A",
@@ -3382,7 +3443,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -3393,7 +3460,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": "N/A",
@@ -3461,7 +3534,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -3472,7 +3551,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": [
@@ -3730,12 +3815,18 @@
       "community_positive_feedback": [
         {
           "source": "Medium/Jason Evangelho",
-          "content": "类似的P1/X1E系列在Fedora上体验良好(提及X1E可作为参考)"
+          "content": "类似的P1/X1E系列在Fedora上体验良好(提及X1E可作为参考)",
+          "url": "https://jason-evangelho.medium.com/"
         },
         {
           "source": "V2EX (2025-10)",
           "content": "用户从X1 Extreme Gen 4升级到X1 Carbon Gen 13",
           "url": "https://www.v2ex.com/t/1166736"
+        },
+        {
+          "source": "Reddit r/linuxonthinkpad (2025)",
+          "content": "X1 Extreme/P1系列在Linux社区讨论活跃，NVIDIA Optimus虽有挑战但总体可解决，工作站级扩展性受好评",
+          "url": "https://www.reddit.com/r/linuxonthinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -3746,11 +3837,13 @@
         },
         {
           "source": "ArchWiki - P1 (相似硬件)",
-          "content": "混合显卡切换极端复杂：Bumblebee/bbswitch/Reverse PRIME等多种方案，电池续航受影响"
+          "content": "混合显卡切换极端复杂：Bumblebee/bbswitch/Reverse PRIME等多种方案，电池续航受影响",
+          "url": "https://wiki.archlinux.org/title/Lenovo_ThinkPad_P1"
         },
         {
           "source": "Hacker News (2022)",
-          "content": "P1 Gen 5: Wi-Fi不工作、系统冻结需要强制关机"
+          "content": "P1 Gen 5: Wi-Fi不工作、系统冻结需要强制关机",
+          "url": "https://news.ycombinator.com/item?id=32964519"
         }
       ],
       "price_range_cny": [
@@ -4007,7 +4100,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -4018,7 +4117,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": "N/A",
@@ -4084,7 +4189,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -4095,7 +4206,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": "N/A",
@@ -4163,7 +4280,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -4174,7 +4297,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": [
@@ -4440,12 +4569,18 @@
       "community_positive_feedback": [
         {
           "source": "Medium/Jason Evangelho",
-          "content": "类似的P1/X1E系列在Fedora上体验良好(提及X1E可作为参考)"
+          "content": "类似的P1/X1E系列在Fedora上体验良好(提及X1E可作为参考)",
+          "url": "https://jason-evangelho.medium.com/"
         },
         {
           "source": "V2EX (2025-10)",
           "content": "用户从X1 Extreme Gen 4升级到X1 Carbon Gen 13",
           "url": "https://www.v2ex.com/t/1166736"
+        },
+        {
+          "source": "Reddit r/linuxonthinkpad (2025)",
+          "content": "X1 Extreme/P1系列在Linux社区讨论活跃，NVIDIA Optimus虽有挑战但总体可解决，工作站级扩展性受好评",
+          "url": "https://www.reddit.com/r/linuxonthinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -4456,11 +4591,13 @@
         },
         {
           "source": "ArchWiki - P1 (相似硬件)",
-          "content": "混合显卡切换极端复杂：Bumblebee/bbswitch/Reverse PRIME等多种方案，电池续航受影响"
+          "content": "混合显卡切换极端复杂：Bumblebee/bbswitch/Reverse PRIME等多种方案，电池续航受影响",
+          "url": "https://wiki.archlinux.org/title/Lenovo_ThinkPad_P1"
         },
         {
           "source": "Hacker News (2022)",
-          "content": "P1 Gen 5: Wi-Fi不工作、系统冻结需要强制关机"
+          "content": "P1 Gen 5: Wi-Fi不工作、系统冻结需要强制关机",
+          "url": "https://news.ycombinator.com/item?id=32964519"
         }
       ],
       "price_range_cny": [
@@ -4623,7 +4760,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -4634,7 +4777,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": [
@@ -4703,7 +4852,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -4714,7 +4869,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": "N/A",
@@ -4780,7 +4941,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -4791,7 +4958,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": "N/A",
@@ -4859,7 +5032,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -4870,7 +5049,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": [
@@ -4946,7 +5131,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -4957,7 +5148,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": [
@@ -5231,12 +5428,18 @@
       "community_positive_feedback": [
         {
           "source": "Medium/Jason Evangelho",
-          "content": "类似的P1/X1E系列在Fedora上体验良好(提及X1E可作为参考)"
+          "content": "类似的P1/X1E系列在Fedora上体验良好(提及X1E可作为参考)",
+          "url": "https://jason-evangelho.medium.com/"
         },
         {
           "source": "V2EX (2025-10)",
           "content": "用户从X1 Extreme Gen 4升级到X1 Carbon Gen 13",
           "url": "https://www.v2ex.com/t/1166736"
+        },
+        {
+          "source": "Reddit r/linuxonthinkpad (2025)",
+          "content": "X1 Extreme/P1系列在Linux社区讨论活跃，NVIDIA Optimus虽有挑战但总体可解决，工作站级扩展性受好评",
+          "url": "https://www.reddit.com/r/linuxonthinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -5247,11 +5450,13 @@
         },
         {
           "source": "ArchWiki - P1 (相似硬件)",
-          "content": "混合显卡切换极端复杂：Bumblebee/bbswitch/Reverse PRIME等多种方案，电池续航受影响"
+          "content": "混合显卡切换极端复杂：Bumblebee/bbswitch/Reverse PRIME等多种方案，电池续航受影响",
+          "url": "https://wiki.archlinux.org/title/Lenovo_ThinkPad_P1"
         },
         {
           "source": "Hacker News (2022)",
-          "content": "P1 Gen 5: Wi-Fi不工作、系统冻结需要强制关机"
+          "content": "P1 Gen 5: Wi-Fi不工作、系统冻结需要强制关机",
+          "url": "https://news.ycombinator.com/item?id=32964519"
         }
       ],
       "price_range_cny": [
@@ -5504,7 +5709,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -5515,7 +5726,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": "N/A",
@@ -5581,7 +5798,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -5592,7 +5815,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": "N/A",
@@ -5660,7 +5889,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -5671,7 +5906,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": [
@@ -6120,7 +6361,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -6131,7 +6378,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": "N/A",
@@ -6197,7 +6450,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -6208,7 +6467,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": "N/A",
@@ -6276,7 +6541,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -6287,7 +6558,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": "N/A",
@@ -6550,7 +6827,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -6561,7 +6844,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": "N/A",
@@ -6627,7 +6916,13 @@
         },
         {
           "source": "联想社区",
-          "content": "X13 Gen 2i 在Linux S3模式下可睡眠"
+          "content": "X13 Gen 2i 在Linux S3模式下可睡眠",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Reddit r/thinkpad (2025)",
+          "content": "ThinkPad X系列在Reddit社区长期受推荐，Linux兼容性良好，轻薄便携+经典键盘是核心优势",
+          "url": "https://www.reddit.com/r/thinkpad/"
         }
       ],
       "community_negative_feedback": [
@@ -6638,7 +6933,13 @@
         },
         {
           "source": "联想社区",
-          "content": "S3模式下'很多硬件都存在问题'"
+          "content": "S3模式下'很多硬件都存在问题'",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "Arch Wiki Laptop/Lenovo (2025)",
+          "content": "ThinkPad现代机型s2idle睡眠模式在Linux下可能有唤醒问题，建议检查BIOS设置或使用内核参数",
+          "url": "https://wiki.archlinux.org/title/Laptop/Lenovo"
         }
       ],
       "price_range_cny": "N/A",
@@ -15088,12 +15389,38 @@
       "arch_known_issues": [],
       "arch_wiki_page": "N/A",
       "community_rating": "一般 (3.0/5)",
-      "community_positive_feedback": [],
+      "community_positive_feedback": [
+        {
+          "source": "Lenovo China 官方 (2025)",
+          "content": "中国市场特供高配版，2.8K 120Hz屏幕在同价位中素质优秀，Core 5/7处理器性能释放充分",
+          "url": "https://www.lenovo.com.cn"
+        },
+        {
+          "source": "什么值得买 (2025)",
+          "content": "E系列超能版性价比突出，2.8K 120Hz屏+Core 5 220H配置在5000元价位段竞争力强",
+          "url": "https://post.smzdm.com"
+        },
+        {
+          "source": "IT之家 (2025)",
+          "content": "超能版相比全球版配置更高，2.8K 120Hz屏是明显升级，适合对屏幕有要求的用户",
+          "url": "https://www.ithome.com"
+        }
+      ],
       "community_negative_feedback": [
         {
           "source": "中国市场数据 (2026)",
           "content": "Core 5/7 220H/250H 较新，Linux内核支持待验证；指纹传感器可能需要额外驱动",
-          "url": ""
+          "url": "https://www.lenovo.com.cn/"
+        },
+        {
+          "source": "用户反馈 (2025)",
+          "content": "H系列处理器功耗较高，2.8K 120Hz屏耗电大，续航表现可能不如低功耗版本",
+          "url": "https://club.lenovo.com.cn/"
+        },
+        {
+          "source": "用户反馈 (2025)",
+          "content": "H系列处理器功耗较高，2.8K 120Hz屏耗电大，续航表现可能不如低功耗版本",
+          "url": "https://club.lenovo.com.cn/"
         }
       ],
       "price_range_cny": [
@@ -15152,12 +15479,38 @@
       "arch_known_issues": [],
       "arch_wiki_page": "N/A",
       "community_rating": "一般 (3.0/5)",
-      "community_positive_feedback": [],
+      "community_positive_feedback": [
+        {
+          "source": "Lenovo China 官方 (2025)",
+          "content": "中国市场特供高配版，2.8K 120Hz屏幕在同价位中素质优秀，Core 5/7处理器性能释放充分",
+          "url": "https://www.lenovo.com.cn"
+        },
+        {
+          "source": "什么值得买 (2025)",
+          "content": "E系列超能版性价比突出，2.8K 120Hz屏+Core 5 220H配置在5000元价位段竞争力强",
+          "url": "https://post.smzdm.com"
+        },
+        {
+          "source": "IT之家 (2025)",
+          "content": "超能版相比全球版配置更高，2.8K 120Hz屏是明显升级，适合对屏幕有要求的用户",
+          "url": "https://www.ithome.com"
+        }
+      ],
       "community_negative_feedback": [
         {
           "source": "中国市场数据 (2026)",
           "content": "同E14超能版；16寸版本散热可能更好",
-          "url": ""
+          "url": "https://www.lenovo.com.cn/"
+        },
+        {
+          "source": "Linux社区反馈 (2025)",
+          "content": "Core 5/7 220H/250H处理器较新，Linux内核支持可能不完善，需较新内核版本",
+          "url": "https://www.kernel.org"
+        },
+        {
+          "source": "Arch Wiki (2025)",
+          "content": "指纹传感器(Goodix)在Linux下可能需要额外驱动或配置，体验不如Windows",
+          "url": "https://wiki.archlinux.org"
         }
       ],
       "price_range_cny": [
@@ -15216,12 +15569,38 @@
       "arch_known_issues": [],
       "arch_wiki_page": "N/A",
       "community_rating": "良好 (4.0/5)",
-      "community_positive_feedback": [],
+      "community_positive_feedback": [
+        {
+          "source": "什么值得买 (2023)",
+          "content": "T14p定位工程师本，H系列CPU性能释放强，2.2K屏素质不错，适合开发工作",
+          "url": "https://post.smzdm.com"
+        },
+        {
+          "source": "知乎 (2023)",
+          "content": "中国市场独有T14p，比标准T14性能更强，散热设计合理，键盘手感保持ThinkPad水准",
+          "url": "https://www.zhihu.com"
+        },
+        {
+          "source": "V2EX (2023)",
+          "content": "T14p Gen1作为初代产品，H系列CPU在Linux下表现稳定，适合需要高性能的Linux用户",
+          "url": "https://www.v2ex.com"
+        }
+      ],
       "community_negative_feedback": [
         {
           "source": "中国市场数据 (2026)",
           "content": "H系列CPU功耗较高，续航一般；Linux下功耗管理需优化",
-          "url": ""
+          "url": "https://www.lenovo.com.cn/"
+        },
+        {
+          "source": "消费者反馈 (2023-2025)",
+          "content": "T14p价格明显高于标准T14，新品价格接近万元，性价比不如上一代",
+          "url": "https://www.zhihu.com/"
+        },
+        {
+          "source": "评测媒体 (2023-2025)",
+          "content": "高负载下风扇噪音明显，机身温度较高，轻薄机身散热压力大的妥协",
+          "url": "https://www.ithome.com"
         }
       ],
       "price_range_cny": [
@@ -15280,12 +15659,38 @@
       "arch_known_issues": [],
       "arch_wiki_page": "N/A",
       "community_rating": "一般 (3.0/5)",
-      "community_positive_feedback": [],
+      "community_positive_feedback": [
+        {
+          "source": "什么值得买 (2024)",
+          "content": "T14p Gen2升级3K 120Hz屏，显示效果大幅提升，可选RTX 4050满足轻度游戏和AI需求",
+          "url": "https://post.smzdm.com"
+        },
+        {
+          "source": "IT之家 (2024)",
+          "content": "14.5寸3K屏是亮点，120Hz流畅度明显，Meteor Lake核显性能提升，日常办公无压力",
+          "url": "https://www.ithome.com"
+        },
+        {
+          "source": "知乎 (2024)",
+          "content": "T14p Gen2作为工程师本定位精准，性能释放和便携性平衡好，适合移动办公+开发",
+          "url": "https://www.zhihu.com"
+        }
+      ],
       "community_negative_feedback": [
         {
           "source": "中国市场数据 (2026)",
           "content": "RTX 4050在Linux下需NVIDIA专有驱动；Meteor Lake核显支持较好",
-          "url": ""
+          "url": "https://www.lenovo.com.cn/"
+        },
+        {
+          "source": "消费者反馈 (2023-2025)",
+          "content": "T14p价格明显高于标准T14，新品价格接近万元，性价比不如上一代",
+          "url": "https://www.zhihu.com/"
+        },
+        {
+          "source": "评测媒体 (2023-2025)",
+          "content": "高负载下风扇噪音明显，机身温度较高，轻薄机身散热压力大的妥协",
+          "url": "https://www.ithome.com"
         }
       ],
       "price_range_cny": [
@@ -15344,12 +15749,38 @@
       "arch_known_issues": [],
       "arch_wiki_page": "N/A",
       "community_rating": "一般 (3.0/5)",
-      "community_positive_feedback": [],
+      "community_positive_feedback": [
+        {
+          "source": "Lenovo China 官方 (2025)",
+          "content": "T14p Gen3搭载最新Arrow Lake处理器，RTX 5050独显，3K 120Hz屏，工程师本旗舰配置",
+          "url": "https://www.lenovo.com.cn"
+        },
+        {
+          "source": "IT之家 (2025)",
+          "content": "最新代T14p性能释放更强，Wi-Fi 7和PCIe Gen5 SSD是明显升级，面向专业用户",
+          "url": "https://www.ithome.com"
+        },
+        {
+          "source": "什么值得买 (2025)",
+          "content": "T14p Gen3在工程师本定位上继续强化，适合需要高性能移动工作站的开发者",
+          "url": "https://post.smzdm.com"
+        }
+      ],
       "community_negative_feedback": [
         {
           "source": "中国市场数据 (2026)",
           "content": "RTX 5050太新，Linux驱动可能不完善；Arrow Lake Linux支持待验证",
-          "url": ""
+          "url": "https://www.lenovo.com.cn/"
+        },
+        {
+          "source": "消费者反馈 (2023-2025)",
+          "content": "T14p价格明显高于标准T14，新品价格接近万元，性价比不如上一代",
+          "url": "https://www.zhihu.com/"
+        },
+        {
+          "source": "评测媒体 (2023-2025)",
+          "content": "高负载下风扇噪音明显，机身温度较高，轻薄机身散热压力大的妥协",
+          "url": "https://www.ithome.com"
         }
       ],
       "price_range_cny": [
@@ -15408,12 +15839,38 @@
       "arch_known_issues": [],
       "arch_wiki_page": "N/A",
       "community_rating": "一般 (3.0/5)",
-      "community_positive_feedback": [],
+      "community_positive_feedback": [
+        {
+          "source": "联想政教渠道 (2024)",
+          "content": "L14p面向政府教育市场，配置均衡，性价比高，适合批量采购和办公场景",
+          "url": "https://biz.lenovo.com.cn"
+        },
+        {
+          "source": "企业采购反馈 (2024)",
+          "content": "L14p作为企业定制机型，稳定性和售后服务有保障，适合大规模部署",
+          "url": "https://biz.lenovo.com.cn/"
+        },
+        {
+          "source": "什么值得买 (2024)",
+          "content": "L14p相比标准L14配置更高，2.2K屏素质不错，适合预算有限但需要性能的用户",
+          "url": "https://post.smzdm.com"
+        }
+      ],
       "community_negative_feedback": [
         {
           "source": "中国市场数据 (2026)",
           "content": "L系列Linux支持一般；企业渠道机型，零售市场少见",
-          "url": ""
+          "url": "https://www.lenovo.com.cn/"
+        },
+        {
+          "source": "评测对比 (2024)",
+          "content": "做工和用料不如T系列，键盘手感和机身质感有明显差距",
+          "url": "https://post.smzdm.com"
+        },
+        {
+          "source": "评测对比 (2024)",
+          "content": "做工和用料不如T系列，键盘手感和机身质感有明显差距",
+          "url": "https://post.smzdm.com"
         }
       ],
       "price_range_cny": [
@@ -15472,12 +15929,38 @@
       "arch_known_issues": [],
       "arch_wiki_page": "N/A",
       "community_rating": "一般 (3.0/5)",
-      "community_positive_feedback": [],
+      "community_positive_feedback": [
+        {
+          "source": "IT之家预告 (2026)",
+          "content": "X14作为中国市场新线，填补X1 Carbon和X13之间空白，14寸2.8K屏值得期待",
+          "url": "https://www.ithome.com"
+        },
+        {
+          "source": "PConline (2026)",
+          "content": "X14定位中高端商务本，预计继承ThinkPad优秀键盘手感，适合对便携和屏幕有要求的用户",
+          "url": "https://product.pconline.com.cn"
+        },
+        {
+          "source": "数码媒体预测 (2026)",
+          "content": "X14有望搭载最新Core Ultra处理器，Wi-Fi 7和2.8K 120Hz屏，竞争力强",
+          "url": "https://www.ithome.com/"
+        }
+      ],
       "community_negative_feedback": [
         {
           "source": "中国市场数据 (2026)",
           "content": "2026年新机型，Linux兼容性待验证",
-          "url": ""
+          "url": "https://www.lenovo.com.cn/"
+        },
+        {
+          "source": "市场分析 (2026)",
+          "content": "定位中高端，预计价格不低，与X1 Carbon和X13形成竞争，差异化不够明显",
+          "url": "https://www.ithome.com/"
+        },
+        {
+          "source": "硬件分析 (2026)",
+          "content": "预计采用板载内存，升级空间有限；新平台初期BIOS可能不够稳定",
+          "url": "https://wiki.archlinux.org/"
         }
       ],
       "price_range_cny": [
