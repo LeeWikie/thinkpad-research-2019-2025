@@ -285,37 +285,88 @@ def apply_conditional_formatting(ws, df):
             )
 
 
-def auto_width(ws, max_width=40, min_width=8):
-    """自适应列宽。"""
-    for col_cells in ws.columns:
-        col_letter = get_column_letter(col_cells[0].column)
-        max_len = 0
-        for cell in col_cells:
-            if cell.value:
-                # 中文字符算2个宽度
-                val = str(cell.value)
-                length = sum(2 if ord(c) > 127 else 1 for c in val)
-                if length > max_len:
-                    max_len = length
-        adjusted = min(max(max_len + 3, min_width), max_width)
-        ws.column_dimensions[col_letter].width = adjusted
+def auto_width(ws):
+    """自适应列宽 — 三级精确控制。
 
-    # 文本较长列额外加宽
-    wide_cols = {
-        "社区正面反馈": 50,
-        "社区负面反馈": 50,
-        "Fedora说明": 40,
-        "Fedora已知问题": 35,
-        "接口": 30,
-        "典型配置": 30,
-        "Linux兼容性细分": 30,
-        "Ubuntu数据来源": 50,
-        "Arch Wiki页面": 50,
+    短内容列(8-14):   年份/尺寸/评分等
+    中等内容列(16-32): 型号/CPU/分辨率等
+    长内容列(36-65):   接口/反馈/URL等
+    通过 per-column min/max 避免文字截断和空白浪费。
+    """
+    # ── 每列宽度配置: (min_width, max_width) ──
+    COLUMN_SPECS: dict[str, tuple[int, int]] = {
+        # 短内容列
+        "发布年份":         (8, 12),
+        "尺寸(英寸)":       (10, 16),
+        "刷新率(Hz)":      (10, 14),
+        "触摸屏":          (8, 12),
+        "CPU架构":         (10, 14),
+        "指纹识别":        (8, 14),
+        "重量":           (8, 14),
+        "Ubuntu认证":      (10, 14),
+        "Linux兼容性原始分数": (12, 20),
+        "Linux兼容性评分":  (14, 20),
+        "成色":           (8, 18),
+        "价格数据质量":     (12, 20),
+        "数据可信度":       (16, 22),
+        "数据更新日期":     (12, 18),
+        # 中等内容列
+        "型号":            (22, 32),
+        "系列":            (14, 22),
+        "代际":            (14, 24),
+        "分辨率":          (18, 30),
+        "CPU型号":         (24, 36),
+        "集成显卡":         (14, 24),
+        "独立显卡":         (14, 24),
+        "内存类型":         (12, 22),
+        "最大内存":         (10, 18),
+        "存储接口":         (16, 28),
+        "无线":            (16, 26),
+        "摄像头":          (18, 30),
+        "官方标称续航(h)":   (16, 30),
+        "Ubuntu认证版本":    (14, 26),
+        "Fedora兼容性":      (14, 24),
+        "Fedora认证版本":    (14, 26),
+        "Arch兼容性":        (12, 20),
+        "社区评分":         (16, 26),
+        "二手价格区间(CNY)":  (14, 24),
+        "典型配置":         (26, 40),
+        # 长内容列
+        "接口":            (28, 45),
+        "Ubuntu数据来源":    (30, 55),
+        "Fedora说明":       (35, 55),
+        "Fedora已知问题":    (28, 45),
+        "Arch已知问题":      (20, 40),
+        "Arch Wiki页面":    (30, 55),
+        "社区正面反馈":      (40, 65),
+        "社区负面反馈":      (40, 65),
+        "Linux兼容性细分":   (25, 40),
+        "数据来源URL":       (30, 55),
     }
+
     for col_cells in ws.columns:
         header = col_cells[0].value
-        if header in wide_cols:
-            ws.column_dimensions[get_column_letter(col_cells[0].column)].width = wide_cols[header]
+        col_letter = get_column_letter(col_cells[0].column)
+
+        if header and header in COLUMN_SPECS:
+            cfg_min, cfg_max = COLUMN_SPECS[header]
+        else:
+            # 未显式配置 → 中等宽度默认
+            cfg_min, cfg_max = 10, 30
+
+        # 基于内容计算所需宽度
+        max_content_len = 0
+        for cell in col_cells:
+            if cell.value:
+                val = str(cell.value)
+                # 中文字符 ≈ 2 个英文字符宽度
+                length = sum(2 if ord(c) > 127 else 1 for c in val)
+                if length > max_content_len:
+                    max_content_len = length
+
+        # 综合：不低于min，不高于max，在内容基础上+3留白
+        adjusted = min(max(max_content_len + 3, cfg_min), cfg_max)
+        ws.column_dimensions[col_letter].width = adjusted
 
 
 # ── 数据说明Sheet ──────────────────────────────────────────
@@ -335,8 +386,8 @@ def create_data_description_sheet(wb):
     # 基本信息
     info = [
         ("数据生成日期", "2026-06-08"),
-        ("总型号数", "162"),
-        ("覆盖年份", "2019-2025"),
+        ("总型号数", "169"),
+        ("覆盖年份", "2019-2026"),
         ("涉及系列", "T, X1 Carbon/Nano/Yoga/Titanium/Fold, X, P, L, E, Z"),
     ]
     row = 3

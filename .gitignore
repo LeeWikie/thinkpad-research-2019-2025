@@ -19,8 +19,18 @@ Thumbs.db
 
 # Project specific - exclude intermediate data and process files
 .sisyphus/
-data/
+data/raw/_progress.json
+data/raw/models_*.json
+data/raw/specs_*.json
+data/raw/ubuntu_cert.json
+data/raw/fedora_compat.json
+data/raw/arch_compat.json
+data/raw/community_compat.json
+data/raw/prices_cn.json
+data/processed/validation_report.json
+data/processed/audit_report.json
 *.tmp
 
-# Keep only final deliverables in repo
-# These are explicitly tracked despite being in ignored dirs above
+# Keep final deliverables and China exclusive data
+!data/raw/models_china_exclusive.json
+!data/processed/merged_data.json
