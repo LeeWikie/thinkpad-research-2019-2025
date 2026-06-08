@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific - exclude intermediate data and process files
+.sisyphus/
+data/
+*.tmp
+
+# Keep only final deliverables in repo
+# These are explicitly tracked despite being in ignored dirs above
