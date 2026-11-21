@@ -411,7 +411,8 @@ def validate_styles(wb, data_sheet_name):
 
 
 def main():
-    filepath = "/mnt/c/Users/Administrator/Desktop/thinkpad/thinkpad_complete_research.xlsx"
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    filepath = sys.argv[1] if len(sys.argv) > 1 else os.path.join(project_root, "thinkpad_complete_research.xlsx")
 
     print("=" * 70)
     print("  FINAL WAVE F2: Excel格式验证")
@@ -554,7 +555,7 @@ def main():
     print("=" * 70)
 
     # 生成验证报告文件
-    report_path = os.path.join(os.path.dirname(filepath), "..", ".sisyphus", "evidence", "task-f2-excel-validation.txt")
+    report_path = os.path.join(project_root, ".sisyphus", "evidence", "task-f2-excel-validation.txt")
     report_dir = os.path.dirname(report_path)
     os.makedirs(report_dir, exist_ok=True)
 
